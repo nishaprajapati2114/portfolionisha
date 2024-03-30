@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  background-image: url("2098638.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  
+}
+
+header {
+  background: #333;
+  color: yellow;
+  padding: 20px;
+}
+
+.interest-image {
+  width: 200px;  
+  height: auto;  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.project {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  perspective: 1000px;  
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.project:hover img {
+  transform: rotateY(20deg) scale(1.1);  
+}
+
+body,
+header,
+.project-info {
+  color: #8B0000;  
+}
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.project-info h3,
+.project-info p {
+  margin: 0;
+  color: #8b0000;  
+}
+
+.project-info a {
+  color: #8b0000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.project-info a:hover {
+  color: #ff6600;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
